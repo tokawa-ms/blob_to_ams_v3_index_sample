@@ -16,9 +16,9 @@ using Microsoft.Rest;
 using Microsoft.Rest.Azure.Authentication;
 using Microsoft.WindowsAzure.Storage.Blob;
 
-namespace blobtoams_001
+namespace Func_BlobToAMSv3_Index_sample
 {
-    public static class Func2AMSv3Demo
+    public static class Func_BlobToAMSv3_Index
     {
         private const string VideoAnalyzerTransformName = "MyVideoAnalyzerTransformName";
         private static string InputMP4FileName;

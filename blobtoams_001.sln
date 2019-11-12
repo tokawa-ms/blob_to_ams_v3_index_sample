@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blobtoams_001", "blobtoams_001\blobtoams_001.csproj", "{69D805D5-BE52-47ED-A5AD-F7F372154490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blob_to_ams_v3_index_sample", "blobtoams_001\blob_to_ams_v3_index_sample.csproj", "{69D805D5-BE52-47ED-A5AD-F7F372154490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

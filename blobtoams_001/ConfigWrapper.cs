@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 
-namespace blobtoams_001
+namespace Func_BlobToAMSv3_Index_sample
 {
     public class ConfigWrapper
     {
