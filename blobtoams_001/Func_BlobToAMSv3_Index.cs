@@ -22,8 +22,9 @@ namespace Func_BlobToAMSv3_Index_sample
     {
         private const string VideoAnalyzerTransformName = "MyVideoAnalyzerTransformName";
         private static string InputMP4FileName;
-        private const string OutputFolderName = @"Output";
 
+        // トラック対象の Blob Storage の samples-workitems コンテナにファイルが入力されるとトリガーされる
+        // myBlob には Stream で Blob の中身の実体 (今回は動画ファイルそのもの) が格納されている
         [FunctionName("Function1")]
         public static async void Run([BlobTrigger("samples-workitems/{name}")]Stream myBlob, string name, ILogger log)
         {
@@ -112,8 +113,6 @@ namespace Func_BlobToAMSv3_Index_sample
             if (job.State == JobState.Finished)
             {
                 Console.WriteLine("Job finished.");
-                if (!Directory.Exists(OutputFolderName))
-                    Directory.CreateDirectory(OutputFolderName);
 
             }
 
